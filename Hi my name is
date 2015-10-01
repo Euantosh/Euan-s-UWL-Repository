@@ -1,0 +1,2 @@
+myname="Euan Charles McIntosh"
+print(myname)
