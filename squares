@@ -1,0 +1,12 @@
+squares=[]
+squares.append(1*1)
+squares.append(2*2)
+squares.append(3*3)
+squares.append(4*4)
+squares.append(5*5)
+squares.append(6*6)
+squares.append(7*7)
+squares.append(8*8)
+squares.append(9*9)
+squares.append(10*10)
+print(squares)
