@@ -1,0 +1,12 @@
+print("Shopping list")
+shopping=[]
+
+sentinel = "cont"
+
+while sentinel!="":
+    
+    sentinel=input("please add to the shopping list")
+    if sentinel!="":
+        shopping.append(sentinel)
+    
+print(shopping)
