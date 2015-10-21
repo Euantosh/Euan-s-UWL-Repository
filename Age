@@ -1,0 +1,7 @@
+name=input("Your Name Please")
+print("Thanks",name,"can i have your age please")
+age=int(input("Your age"))
+nextYrAge=(age+1)
+print("next year you will be",nextYrAge)
+if nextYrAge>=20:
+    print("are you Feeling old??")
