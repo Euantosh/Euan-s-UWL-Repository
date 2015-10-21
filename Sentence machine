@@ -1,0 +1,14 @@
+#the two sentences
+first=input("first sentence please")
+second=input("second sentence please")
+#combining the sentence
+sentence=first+second
+print(sentence)
+#trying to put the sentence into a list
+split1=first.split(" ")
+split2=second.split(" ") 
+wordlist=split1+split2
+print(wordlist)
+wordlist.sort()
+print(wordlist)
+wordcount 
