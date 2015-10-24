@@ -1,0 +1,9 @@
+def isEven(num):
+    return num %2==0
+
+page = 6
+       
+if isEven(page):
+    print(page)
+else:
+    print("%60s%d" % (" ", page))
