@@ -1,4 +1,6 @@
+wordcount=0
 #the two sentences
+
 first=input("first sentence please")
 second=input("second sentence please")
 #combining the sentence
@@ -11,4 +13,6 @@ wordlist=split1+split2
 print(wordlist)
 wordlist.sort()
 print(wordlist)
-wordcount 
+for item in wordlist:
+    wordcount+=1
+print("the total word count is",wordcount)
